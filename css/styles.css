@@ -149,8 +149,9 @@ img {
 
 .hero {
   background-color: var(--hero-color);
-  padding: 200px 0;
-  margin-bottom: 94px;
+  height: 600px;
+  display: flex;
+  align-items: center;
 }
 .hero-title {
   color: var(--white-color);
@@ -204,7 +205,7 @@ img {
 
 /* feature-block*/
 .feature-block {
-  margin-bottom: 94px;
+  padding: 94px 0;
 }
 
 .section-title {
@@ -241,7 +242,7 @@ img {
 }
 /* our-job */
 .our-job {
-  margin-bottom: 94px;
+  padding: 94px 0;
 }
 .our-job .container {
   display: flex;
@@ -259,7 +260,6 @@ img {
 /* team-block */
 .team-block {
   background-color: var(--secondary-background-color);
-  margin: 0;
   padding: 94px 0;
 }
 .team-block .list {
