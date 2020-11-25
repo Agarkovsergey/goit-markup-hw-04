@@ -10,7 +10,7 @@
     <script src="./script/script.js" async></script>
   </head>
   <body>
-    <header class="header">
+    <header class="header portfolio-header">
       <div class="container">
         <nav>
           <ul class="site-nav list">
@@ -33,7 +33,7 @@
     <main class="portfolio-page">
       <section class="portfolio">
         <div class="container">
-          <!-- <h1>Наше портфолио</h1> -->
+          <h1 class="visually-hidden">Наше портфолио</h1>
           <ul class="filter list">
             <li class="filter-item">
               <button type="button" class="filter-button current">Все</button>
@@ -56,8 +56,10 @@
               <a href="#" class="portfolio-link">
                 <div class="card-container">
                   <img src="./images/portfolio/img_01.jpg" alt="Технокряк" />
-                  <h2 class="title">технокряк</h2>
-                  <p class="text">веб-сайт</p>
+                  <div class="card-content">
+                    <h2 class="card-title">технокряк</h2>
+                    <p class="card-text">веб-сайт</p>
+                  </div>
                 </div>
               </a>
             </li>
@@ -65,8 +67,10 @@
               <a href="#" class="portfolio-link">
                 <div class="card-container">
                   <img src="./images/portfolio/img_02.jpg" alt="Постер New Orlean vs Golden Star" />
-                  <h2 class="title">постер New Orlean vs Golden Star</h2>
-                  <p class="text">дизайн</p>
+                  <div class="card-content">
+                    <h2 class="card-title">постер New Orlean vs Golden Star</h2>
+                    <p class="card-text">дизайн</p>
+                  </div>
                 </div>
               </a>
             </li>
@@ -74,8 +78,10 @@
               <a href="#" class="portfolio-link">
                 <div class="card-container">
                   <img src="./images/portfolio/img_04.jpg" alt="Проект Prime" />
-                  <h2 class="title">ресторан Seafood</h2>
-                  <p class="text">приложение</p>
+                  <div class="card-content">
+                    <h2 class="card-title">ресторан Seafood</h2>
+                    <p class="card-text">приложение</p>
+                  </div>
                 </div>
               </a>
             </li>
@@ -83,8 +89,10 @@
               <a href="#" class="portfolio-link">
                 <div class="card-container">
                   <img src="./images/portfolio/img_05.jpg" alt="Проект Boxes" />
-                  <h2 class="title">проект Prime</h2>
-                  <p class="text">маркетинг</p>
+                  <div class="card-content">
+                    <h2 class="card-title">проект Prime</h2>
+                    <p class="card-text">маркетинг</p>
+                  </div>
                 </div>
               </a>
             </li>
@@ -92,8 +100,10 @@
               <a href="#" class="portfolio-link">
                 <div class="card-container">
                   <img src="./images/portfolio/img_03.jpg" alt="Ресторан Seafood" />
-                  <h2 class="title">проект Boxes</h2>
-                  <p class="text">приложение</p>
+                  <div class="card-content">
+                    <h2 class="card-title">проект Boxes</h2>
+                    <p class="card-text">приложение</p>
+                  </div>
                 </div>
               </a>
             </li>
@@ -101,8 +111,10 @@
               <a href="#" class="portfolio-link">
                 <div class="card-container">
                   <img src="./images/portfolio/img_06.jpg" alt="Inspiration has no Borders" />
-                  <h2 class="title">inspiration has no Borders</h2>
-                  <p class="text">веб-сайт</p>
+                  <div class="card-content">
+                    <h2 class="card-title">inspiration has no Borders</h2>
+                    <p class="card-text">веб-сайт</p>
+                  </div>
                 </div>
               </a>
             </li>
@@ -110,8 +122,10 @@
               <a href="#" class="portfolio-link">
                 <div class="card-container">
                   <img src="./images/portfolio/img_07.jpg" alt="Издание Limited Edition" />
-                  <h2 class="title">издание Limited Edition</h2>
-                  <p class="text">дизайн</p>
+                  <div class="card-content">
+                    <h2 class="card-title">издание Limited Edition</h2>
+                    <p class="card-text">дизайн</p>
+                  </div>
                 </div>
               </a>
             </li>
@@ -119,8 +133,10 @@
               <a href="#" class="portfolio-link">
                 <div class="card-container">
                   <img src="./images/portfolio/img_08.jpg" alt="Проект LAB" />
-                  <h2 class="title">проект LAB</h2>
-                  <p class="text">маркетинг</p>
+                  <div class="card-content">
+                    <h2 class="card-title">проект LAB</h2>
+                    <p class="card-text">маркетинг</p>
+                  </div>
                 </div>
               </a>
             </li>
@@ -128,8 +144,10 @@
               <a href="#" class="portfolio-link">
                 <div class="card-container">
                   <img src="./images/portfolio/img_09.jpg" alt="Growing Business" />
-                  <h2 class="title">growing Business</h2>
-                  <p class="text">приложение</p>
+                  <div class="card-content">
+                    <h2 class="card-title">growing Business</h2>
+                    <p class="card-text">приложение</p>
+                  </div>
                 </div>
               </a>
             </li>
@@ -139,14 +157,26 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a href="./index.html" class="logo"><span>Web</span>Studio</a>
-        <address class="footer-address">
-          <ul class="list">
-            <li class="address-item"><p>г. Киев, пр-т Леси Украинки, 26</p></li>
-            <li class="address-item"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="address-item"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-          </ul>
-        </address>
+        <div class="footer-content">
+          <div class="address-block">
+            <a href="./index.html" class="logo inverse"><span>Web</span>Studio</a>
+            <address class="footer-address">
+              <ul class="list">
+                <li class="address-item"><p>г. Киев, пр-т Леси Украинки, 26</p></li>
+                <li class="address-item"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="address-item"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+              </ul>
+            </address>
+          </div>
+          <div class="social-block">
+            <b class="join">Присоединяйтесь</b>
+            <ul class="list social-list"></ul>
+          </div>
+          <div class="form-block">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat tempora, dolor eaque ab earum doloribus laboriosam est molestias maiores
+            et! Est maiores eum pariatur magni, alias totam temporibus ratione quaerat.
+          </div>
+        </div>
       </div>
     </footer>
   </body>
