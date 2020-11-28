@@ -256,6 +256,7 @@ img {
   margin-bottom: 30px;
   height: 120px;
   background-color: var(--secondary-background-color);
+  border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
