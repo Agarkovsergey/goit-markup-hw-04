@@ -508,7 +508,6 @@ img {
   justify-content: center;
   align-items: center;
 }
-
 .social-link:hover,
 .social-link:focus {
   background-color: var(--accent-color);
@@ -521,7 +520,6 @@ img {
   height: 20px;
   fill: currentColor;
 }
-
 /* portfolio.html */
 .portfolio-header {
   border-bottom: 1px solid var(--portfolio-header-line-color);
