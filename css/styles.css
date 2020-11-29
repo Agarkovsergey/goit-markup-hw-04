@@ -9,7 +9,7 @@
   --primary-background-color: #ffffff;
   --secondary-background-color: #f5f4fa;
   --border-color: #eeeeee;
-  --portfolio-header-line-color: #ececec;
+  --header-line-color: #ececec;
   --social-bg-color: rgba(255, 255, 255, 0.1);
   --logo-color: #afb1b8;
 }
@@ -85,7 +85,7 @@ img {
 .header {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--portfolio-header-line-color);
+  border-bottom: 1px solid var(--header-line-color);
 }
 .header .container {
   display: flex;
