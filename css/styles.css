@@ -460,6 +460,7 @@ img {
 }
 .footer-list {
   display: flex;
+  align-items: baseline;
 }
 .footer-item {
   margin-right: 70px;
