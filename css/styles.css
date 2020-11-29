@@ -85,7 +85,7 @@ img {
 .header {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--portfolio-header-line-color);
 }
 .header .container {
   display: flex;
