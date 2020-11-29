@@ -462,7 +462,7 @@ img {
   display: flex;
   align-items: baseline;
 }
-.footer-item {
+.footer-item:not(:nth-child(3)) {
   margin-right: 70px;
 }
 .logo.inverse {
